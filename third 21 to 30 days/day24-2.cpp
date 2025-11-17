@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    int i, j;
+    printf("name-dev choudhary\nsap id-590028549\nbatch-6\ncource-bca");
+    printf("\n----------------------------------------\n");
+    for (i = 1; i <= 5; i++) {
+        for (j = 1; j <= i; j++)
+            printf("%d", j);
+        printf("\n");
+    }
+    return 0;
+}
