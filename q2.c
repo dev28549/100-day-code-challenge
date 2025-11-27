@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+	 printf("name-dev choudhary\nsap id-590028549\batch-6\ncource-bca");
+    printf("\n----------------------------------------\n");
+    float a, b;
+    printf("Enter two numbers: ");
+    scanf("%f %f", &a, &b);
+    printf("Sum = %.2f\n", a + b);
+    printf("Difference = %.2f\n", a - b);
+    printf("Product = %.2f\n", a * b);
+    if (b != 0)
+        printf("Quotient = %.2f\n", a / b);
+    else
+        printf("Division by zero not allowed.\n");
+    return 0;
+}
